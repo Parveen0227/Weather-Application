@@ -1,0 +1,91 @@
+body{
+font-family: Arial;
+background: linear-gradient(135deg,#74ebd5,#9face6);
+display:flex;
+justify-content:center;
+margin-top:100px;
+}
+
+.container{
+background:white;
+padding:25px;
+border-radius:20px;
+text-align:center;
+width:320px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+h2{
+color:#444;
+margin-bottom:15px;
+}
+
+input{
+padding:10px;
+width:90%;
+margin-bottom:12px;
+border-radius:10px;
+border:1px solid #ccc;
+outline:none;
+}
+
+button{
+padding:10px 20px;
+cursor:pointer;
+border:none;
+border-radius:10px;
+background: linear-gradient(to right,#ff512f,#f09819);
+color:white;
+font-size:14px;
+}
+
+button:hover{
+opacity:0.85;
+}
+
+#result{
+margin-top:15px;
+padding:10px;
+border-radius:12px;
+background:#f3f7ff;
+color:#333;
+}
+
+/* Optional result styling */
+#result img{
+width:60px;
+}
+
+.temp{
+font-size:32px;
+color:#ff512f;
+font-weight:bold;
+}
+
+.desc{
+color:#666;
+}
+
+.tip{
+margin-top:8px;
+background:#e0f7fa;
+padding:8px;
+border-radius:8px;
+color:#00796b;
+}
+
+.air{
+margin-top:8px;
+background:#fff3e0;
+padding:8px;
+border-radius:8px;
+color:#ef6c00;
+}
+
+.clothes{
+margin-top:8px;
+background:#fce4ec;
+padding:8px;
+border-radius:8px;
+color:#ad1457;
+}
